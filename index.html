@@ -79,36 +79,14 @@ footer{padding-bottom:5rem}
 @media (max-width:610px){.strategy-dossier{padding:1rem}.strategy-dossier h3{font-size:1.3rem}.feedback-fab{bottom:.65rem;right:.65rem;min-width:110px;padding:.6rem}.strategy-media figcaption{font-size:.83rem}}
 @media print{.feedback-fab,#feedback-dialog{display:none!important}.strategy-dossier{box-shadow:none;break-inside:auto}.strategy-media img{max-height:200px;object-fit:contain}}
 
-/* Optional presentation-style walkthrough; content remains a standalone self-paced module. */
+
 .hero .actions{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem}
-.hero button.buttonlink{border:2px solid #fff;font:inherit;font-weight:800;cursor:pointer}
-.tour-panel[hidden]{display:none!important}
-.tour-panel{position:fixed;bottom:1.1rem;right:1.1rem;z-index:95;width:min(380px,calc(100vw - 2.2rem));max-height:min(510px,calc(100dvh - 2rem));overflow-y:auto;background:var(--surface);color:var(--ink);padding:1.05rem 1.15rem;border:2px solid var(--line);border-radius:1rem;box-shadow:0 12px 44px rgba(0,0,0,.25)}
-.tour-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
-.tour-kicker{font-size:.72rem;color:var(--teal);font-weight:850;letter-spacing:.06em}
-.tour-panel h2{font-size:1.12rem;line-height:1.3;margin:.16rem 0 .25rem}
-.tour-close{border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:1.4rem;border-radius:.5rem;min-height:36px;min-width:40px;cursor:pointer}
-.tour-step-count{font-size:.8rem;color:var(--muted);margin:.1rem 0 .45rem}
-.tour-progress{height:6px;background:var(--soft);border-radius:999px;overflow:hidden;margin-bottom:.6rem}
-#tour-progress-fill{height:100%;width:7.14%;background:var(--teal);display:block;transition:width .15s}
-.tour-label{display:block;font-size:.8rem;font-weight:750;margin:0 0 .2rem}
-.tour-select{display:block;width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:.5rem;font:inherit;font-size:.85rem;padding:.45rem}
-.tour-time{font-size:.82rem;color:var(--teal);font-weight:800;margin:.5rem 0 .2rem}
-.tour-cue{font-size:.9rem;line-height:1.5;margin:.2rem 0 .75rem}
-.tour-controls{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
-.tour-controls button,.tour-quick a{border:1px solid var(--line);padding:.42rem .65rem;min-height:38px;background:var(--surface);color:var(--ink);border-radius:.5rem;font:inherit;font-size:.78rem;font-weight:750;cursor:pointer;text-decoration:none}
-.tour-controls .tour-next{background:var(--navy);border-color:var(--navy);color:#fff}
-.tour-controls button:disabled{opacity:.5;cursor:not-allowed}
-.tour-quick{display:flex;gap:.45rem;flex-wrap:wrap;margin:-.15rem 0 .6rem}
-.tour-quick:empty{display:none}
-@media(max-width:650px){.tour-panel{right:.5rem;bottom:.5rem;width:calc(100vw - 1rem);padding:.8rem .95rem;max-height:65dvh}.tour-panel h2{font-size:1.02rem}.tour-cue{font-size:.84rem}.tour-panel .tour-select{font-size:.82rem}}
-@media print{.tour-panel{display:none!important}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
 <div aria-label="Accessibility options" class="tools" role="region"><div class="wrap toolrow"><span class="tooltitle">Accessibility tools</span><div class="buttons"><button aria-pressed="false" class="ghost" id="contrast" type="button">High contrast</button><button aria-label="Normal text size" class="ghost" id="text-sm" type="button">A</button><button aria-label="Larger text size" class="ghost" id="text-lg" type="button">A+</button><button aria-label="Largest text size" class="ghost" id="text-xl" type="button">A++</button><button class="ghost" id="read-summary" type="button">Play audio summary</button><button class="ghost" disabled="" id="stop-summary" type="button">Stop audio</button></div></div></div>
-<header class="hero" id="welcome"><div class="wrap"><div class="eyebrow">Digital wellness learning module</div><h1>Screens, Sleep &amp; Your Body Clock</h1><p>How evening technology use influences circadian rhythms, sleep, mental health and learning in emerging adulthood—and five research-grounded digital wellness strategies.</p><p><strong>By Tiees Morgan</strong></p><div class="meta"><span>Emerging adults • approximately 18–29</span><span>Self-paced research and practice module</span></div><div class="actions"><a class="buttonlink" href="#goals">Explore the module</a><button aria-controls="tour-panel" aria-expanded="false" class="buttonlink outline" id="tour-open" type="button">15–20 min tour</button></div></div></header>
+<header class="hero" id="welcome"><div class="wrap"><div class="eyebrow">Digital wellness learning module</div><h1>Screens, Sleep &amp; Your Body Clock</h1><p>How evening technology use influences circadian rhythms, sleep, mental health and learning in emerging adulthood—and five research-grounded digital wellness strategies.</p><p><strong>By Tiees Morgan</strong></p><div class="meta"><span>Emerging adults • approximately 18–29</span><span>Self-paced research and practice module</span></div><div class="actions"><a class="buttonlink" href="#goals">Explore the module</a></div></div></header>
 <nav aria-label="Module sections" class="site-nav"><div class="wrap"><a href="#goals">Goals</a><a href="#population">Population</a><a href="#purpose">Problem &amp; purpose</a><a href="#science">Science</a><a href="#strategies">Five strategies</a><a href="#evidence">Evidence</a><a href="#equity">Culture &amp; context</a><a href="#skills">Skill development</a><a href="#quiz">Knowledge check</a><a href="#faq">FAQ</a><a href="#references">References</a></div></nav>
 <main class="wrap" id="main">
 <section aria-labelledby="goals-heading" id="goals"><div class="eyebrow2">01 · Learning destination</div><h2 id="goals-heading">What will learners take away?</h2><div class="grid two"><div class="card accent"><h3>Core learning objectives</h3><ol class="list-tight"><li><strong>Explain </strong>the pathway from evening light through melanopsin-sensitive retinal cells to the body clock, and its possible effects on melatonin, sleep and next-day functioning. </li><li><strong>Analyze </strong>how emerging-adult development, mental health, technology demands and social context influence evening habits and wellness risks. </li><li><strong>Evaluate </strong>the quality and applicability of evidence for five digital wellness strategies, distinguishing controlled effects, associations and preliminary trials. </li><li><strong>Compare and justify </strong>strategy choices by considering developmental needs, barriers, moderating variables and appropriate evaluation measures. </li><li><strong>Design </strong>a feasible, culturally responsive digital wellness plan by considering developmental needs, research evidence, barriers, moderating variables and evaluation measures. </li></ol></div><div class="card tint2"><h3>One central message</h3><p class="quote">The goal is not simply “less screen time.” It is better-timed light, realistic boundaries, supportive routines, and stronger self-regulation skills.</p><p>The five strategies form a flexible continuum—not a single prescription.</p><p class="small">Developing these skills requires practice, feedback and appropriate evaluation of behavioural and psychological outcomes (Conley, 2015).</p></div></div><details><summary>Audio overview transcript (about one minute)</summary><div class="detail-body" id="summary-text"><p>Evening technology use can affect both when we fall asleep and how well we rest. For emerging adults, this matters because school, work, friendships and changing routines often collide at bedtime. This module explains how light reaches the biological clock, why social and emotional pressures can keep us connected late at night, and how to evaluate five strategies: spectral display tuning, a bedroom sanctuary, a disconnection window, chronotherapy, and social and emotional learning skills. These are not equally strong or suitable for everyone. We distinguish laboratory evidence from associations and preliminary interventions, and we consider work schedules, housing, caregiving and cultural realities. By the end, you will be able to choose and critique a practical digital wellness approach rather than simply follow a screen-time rule.</p></div></details></section>
@@ -274,47 +252,5 @@ dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
 $('feedback-send').addEventListener('click',()=>{const note=message.value.trim();if(!note){feedbackStatus.textContent='Write a comment before opening your email draft.';message.focus();return}feedbackStatus.textContent='Your email program may open. Review and send the draft; if it does not open, copy the message and use the email address below.';window.location.href='mailto:tiees.morgan@gmail.com?subject='+encodeURIComponent('Feedback: Screens, Sleep & Your Body Clock')+'&body='+encodeURIComponent(note)});
 $('feedback-copy').addEventListener('click',async()=>{const note=message.value.trim();if(!note){feedbackStatus.textContent='Write a comment before copying.';message.focus();return}try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(note)}else{message.focus();message.select();if(!document.execCommand('copy'))throw Error('copy failed')}feedbackStatus.textContent='Feedback copied. You can paste it into your email to tiees.morgan@gmail.com.'}catch(err){message.focus();message.select();feedbackStatus.textContent='Text selected. Copy it manually and email it to tiees.morgan@gmail.com.'}});
 })();
-</script><aside aria-labelledby="tour-title" class="tour-panel" hidden="" id="tour-panel" role="region">
-<div class="tour-head"><div><div class="tour-kicker">OPTIONAL GUIDED WALKTHROUGH</div><h2 id="tour-title">15–20 min tour</h2></div><button aria-label="Close guided tour" class="tour-close" id="tour-close" type="button">×</button></div>
-<p aria-live="polite" class="tour-step-count" id="tour-step-count">Step 1 of 14</p>
-<div aria-label="Tour progress" aria-valuemax="14" aria-valuemin="1" aria-valuenow="1" class="tour-progress" id="tour-progress" role="progressbar"><span id="tour-progress-fill"></span></div>
-<label class="tour-label" for="tour-select">Jump to a stop</label>
-<select class="tour-select" id="tour-select"></select>
-<p class="tour-time" id="tour-time"></p>
-<p class="tour-cue" id="tour-cue"></p>
-<div class="tour-quick" id="tour-quick"></div>
-<div class="tour-controls"><button class="ghost" id="tour-prev" type="button">Previous</button><button class="ghost" id="tour-go" type="button">Show section</button><button class="tour-next" id="tour-next" type="button">Next</button></div>
-</aside><script>(function(){'use strict';
-const stops=[
- ['Welcome & orientation','0:00–1:10','welcome','Introduce the learning module and its central purpose. Point to the section navigation.'],
- ['Population','1:10–3:05','population','Show the shared-kitchen photograph, the autonomy and peer connection cards, and developmental qualifications.'],
- ['Problem & purpose','3:05–4:25','purpose','Connect evening light exposure, bedtime media habits, and the need for five adaptable strategies.'],
- ['Science & circadian mechanism','4:25–6:45','science','Point to the smartphone-at-night photograph, then the circadian pathway and illustrative research bars. Emphasize their different study protocols.'],
- ['Overview of five strategies','6:45–7:25','strategies','Show the five-strategy comparison table and highlight developmental need, type of evidence, and limitations.'],
- ['Strategy 1: Spectral tuning','7:25–8:35','strategy-1','Show the evening laptop photograph. Explain light-related harm reduction, spectral limitations, and who needs connectivity.'],
- ['Strategy 2: Bedroom sanctuary','8:35–9:45','strategy-2','Show the phone charging away from bed. Highlight social-media checking, FOMO, bedroom constraints, and observational evidence.'],
- ['Strategy 3: Disconnection window','9:45–10:55','strategy-3','Show the journaling photograph. Contrast a flexible wind-down opportunity with a rigid screen ban.'],
- ['Strategy 4: Chronotherapy','10:55–12:15','strategy-4','Show the outdoor morning-light photograph. Discuss schedule stability, delayed circadian timing, and preliminary multicomponent evidence.'],
- ['Strategy 5: SEL skills','12:15–13:40','strategy-5','Explain self-awareness, emotional coping, practice and feedback. Mention the 113-program review by Conley (2015).'],
- ['Strength of the evidence','13:40–15:05','evidence','Compare experimental light studies, observational associations, preliminary trials, and broader SEL reviews.'],
- ['Culture, context & feasibility','15:05–16:20','equity','Point to barriers and moderators: shared housing, work schedules, caregiving, finances, and technological access.'],
- ['Skills, knowledge check & FAQ','16:20–17:25','skills','Show the skills-practice cycle, then briefly open the knowledge check and FAQ using the shortcuts below.'],
- ['Wrap-up & feedback','17:25–18:15','strategies','Return to the strategy overview and invite feedback on practical relevance and clarity. The Feedback button remains available at the bottom of the page.']
-];
-const $=id=>document.getElementById(id),panel=$('tour-panel'), opener=$('tour-open'),select=$('tour-select'),stepCounter=$('tour-step-count'),progress=$('tour-progress'),fill=$('tour-progress-fill'),time=$('tour-time'),cue=$('tour-cue'),quick=$('tour-quick');
-let index=0;
-stops.forEach((s,i)=>{const opt=document.createElement('option');opt.value=String(i);opt.textContent=(i+1)+'. '+s[0];select.appendChild(opt)});
-const motion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';
-function navigate(){const target=$(stops[index][2]);if(target){target.scrollIntoView({behavior:motion(),block:'start'})}}
-function render(go){const s=stops[index];stepCounter.textContent='Step '+(index+1)+' of '+stops.length;select.value=String(index);time.textContent=s[1]+' · Approx. 18 minutes total';cue.textContent=s[3];progress.setAttribute('aria-valuenow',String(index+1));fill.style.width=((index+1)/stops.length*100)+'%';$('tour-prev').disabled=index===0;$('tour-next').textContent=index===stops.length-1?'Finish':'Next';quick.replaceChildren();if(index===12){[['Knowledge check','quiz'],['FAQ','faq']].forEach(([label,id])=>{const link=document.createElement('a');link.href='#'+id;link.textContent=label;quick.appendChild(link)})}if(go)navigate()}
-function close(){panel.hidden=true;opener.setAttribute('aria-expanded','false');opener.focus()}
-opener.addEventListener('click',()=>{panel.hidden=false;opener.setAttribute('aria-expanded','true');index=0;render(true);$('tour-close').focus()});
-$('tour-close').addEventListener('click',close);
-$('tour-prev').addEventListener('click',()=>{if(index>0){index--;render(true)}});
-$('tour-go').addEventListener('click',navigate);
-$('tour-next').addEventListener('click',()=>{if(index===stops.length-1){close();return}index++;render(true)});
-select.addEventListener('change',()=>{index=Math.min(stops.length-1,Math.max(0,Number(select.value)));render(true)});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden){close()}});
-render(false);
-})();</script></body>
+</script></body>
 </html>
